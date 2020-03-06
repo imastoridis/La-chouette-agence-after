@@ -706,6 +706,7 @@ p {
 
 .social {
     max-width: 400px;
+    grid-template-columns: auto auto auto auto;
     margin: auto auto auto auto;
 }
 
@@ -830,7 +831,7 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 /* My code */
-.title{    /*edo*/
+.title{    
     text-align: center;
     padding-bottom: 10px;
 }
@@ -842,13 +843,15 @@ h4 {
 }
 
 .form {
-    max-width: 600px;
+    display: flex;
+    max-width: 90%;
+    justify-content: center;
     text-align: center;
     margin: auto;
 }
 
 .form-group {
-    text-align: left;
+   text-align: left;
 }
 
 
@@ -1065,6 +1068,7 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+        text-align: center;
     }
 }
 
