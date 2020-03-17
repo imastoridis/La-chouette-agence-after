@@ -1070,10 +1070,38 @@ h4 {
         padding-right: 0;
         text-align: center;
     }
+    
+    .text-size_mobile-L {
+        margin-left: -25px;
+        margin-right: -25px;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .text-size_mobile-M {
+        margin-left: -25px;
+        margin-right: -25px;
+        font-size: 18px;
+    }
+    
+    .social{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0!important;
+    }
+    li {
+        list-style: none;
+        margin-left: -30px;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.social{
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
