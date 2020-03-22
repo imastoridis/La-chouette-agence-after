@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: RGB(37,42,42)!important;
 }
 
 .container {
@@ -799,7 +799,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: darkred!important;
 }
 
 .ltc-atomic-tangerine {
@@ -1098,7 +1098,7 @@ h4 {
     padding-bottom: 20px;
     padding-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .bloc {
@@ -1123,3 +1123,14 @@ h4 {
     color: rgb(54,69,119)!important;
 }
 
+a:hover,
+a:focus {
+    color: darkred!important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h3.h3-focus:focus {
+    color: darkred!important;
+    font-weight: bold;
+}
