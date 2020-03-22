@@ -664,11 +664,11 @@ a {
 
 .hero-bloc-text2 {
     font-size: 38px;
-    color: rgb(125,87,87)!important;
+    color: RGB(37,42,42)!important; /*accessibilité*/
 }
 
 .hero-bloc-text-sub {
-    color: rgb(125,87,87)!important;
+    color: RGB(37,42,42)!important;
 }
 
 .statement-bloc-text {
@@ -682,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -759,7 +759,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(90, 58, 54, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -1114,3 +1114,12 @@ h4 {
 .text-right-align {
     margin-right: 35px;
 }
+
+.tangerine-text-color, .fa {
+    color: RGB(37,42,42)!important;
+}
+
+.tangerine-text-color-blue {
+    color: rgb(54,69,119)!important;
+}
+
